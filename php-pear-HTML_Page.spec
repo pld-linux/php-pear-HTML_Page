@@ -3,16 +3,16 @@
 %define         _subclass       Page
 %define		_status		beta
 %define		_pearname	%{_class}_%{_subclass}
-%define		_ver		%{version}b3
+%define		_ver		%{version}b4
 Summary:	%{_pearname} - class for HTML page generation
 Summary(pl):	%{_pearname} - klasa do generowania stron HTML
 Name:		php-pear-%{_pearname}
 Version:	2.0.0
-Release:	0.b3
+Release:	0.b4
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{_ver}.tgz
-# Source0-md5:	0ceca64500ff0f56de299daa3d79e652
+# Source0-md5:	46f824abbfb9678855c08df4a75d7b92
 URL:		http://pear.php.net/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
