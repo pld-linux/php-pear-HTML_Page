@@ -1,9 +1,10 @@
 %include	/usr/lib/rpm/macros.php
-%define         _class          HTML
-%define         _subclass       Page
+%define		_class		HTML
+%define		_subclass	Page
 %define		_status		beta
 %define		_pearname	%{_class}_%{_subclass}
 %define		_ver		%{version}RC2
+
 Summary:	%{_pearname} - base class for XHTML page generation
 Summary(pl):	%{_pearname} - bazowa klasa do generowania stron XHTML
 Name:		php-pear-%{_pearname}
