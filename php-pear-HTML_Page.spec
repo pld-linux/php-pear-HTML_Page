@@ -3,16 +3,16 @@
 %define         _subclass       Page
 %define		_status		beta
 %define		_pearname	%{_class}_%{_subclass}
-%define		_ver		%{version}b7
-Summary:	%{_pearname} - class for HTML page generation
-Summary(pl):	%{_pearname} - klasa do generowania stron HTML
+%define		_ver		%{version}RC1
+Summary:	%{_pearname} - base class for XHTML page generation
+Summary(pl):	%{_pearname} - bazowa klasa do generowania stron XHTML
 Name:		php-pear-%{_pearname}
 Version:	2.0.0
-Release:	0.b7
-License:	PHP 2.02
+Release:	0.RC1
+License:	PHP 3.0
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{_ver}.tgz
-# Source0-md5:	bc900def0b87307295dc54f1090890df
+# Source0-md5:	4e8dc4c7b85f4cc46896db660624a185
 URL:		http://pear.php.net/package/HTML_Page/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
@@ -20,9 +20,16 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-The %{_pearname} class provides a simple interface for generating an
-HTML page framework.
-- META tag support (partial)
+The PEAR::HTML_Page package provides a simple interface for generating
+an XHTML compliant page.
+- supports virtually all HTML doctypes, from HTML 2.0 through XHTML 1.1
+  and XHTML Basic 1.0
+Plus preliminary support for XHTML 2.0
+- namespace support
+- global language declaration for the document
+- line ending styles
+- full META tag support
+- support for stylesheet declaration in the head section
 - support for linked stylesheets and scripts
 - body can be a string, object with toHtml or toString methods or an
   array (can be combined)
@@ -30,12 +37,19 @@ HTML page framework.
 This class has in PEAR status: %{_status}.
 
 %description -l pl
-Klasa %{_pearname} udostêpnia prosty interfejs do generowania stron
-HTML.
-- wsparcie dla tagów META (czê¶ciowe)
-- wsparcie dla arkuszy stylów (CSS) i skryptów
-- "cia³o" strony (body) mo¿e byæ ci±giem znaków, obiektem z metodami
-  toHtml lub toString, albo tablic± (mo¿e byæ ³±czone)
+Klasa PEAR::HTML_Page udostêpnia prosty interfejs do generowania
+zgodnych z XHTML stron.
+- wspiera praktycznie wszystkie rodzaje doctype, od HTML 2.0 przez XHTML
+  1.1 i XHTML Basic 1.0
+Dodatkowo wstêpnie wsparcie dla XHTML 2.0
+- wsparcie dla namespace
+- globalna deklaracja jêzyka dla dokumentu
+- rodzaje koñców linii
+- pe³ne wsparcie dle znaczników META
+- wsparcie dla deklaracji arkusza stylów w sekcji HEAD
+- wsparcie dla pod³±czonych arkuszy stylów i skryptów
+- cia³o dokumentu mo¿e byæ ci±giem znaków, obiektem z metodami toHtml
+  b±d¼ toString lub tablic± (mo¿e byæ mieszane)
 
 Ta klasa ma w PEAR status: %{_status}.
 
