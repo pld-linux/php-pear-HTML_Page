@@ -46,7 +46,7 @@ Dodatkowo wstêpnie wsparcie dla XHTML 2.0
 - wsparcie dla namespace
 - globalna deklaracja jêzyka dla dokumentu
 - rodzaje koñców linii
-- pe³ne wsparcie dle znaczników META
+- pe³ne wsparcie dla znaczników META
 - wsparcie dla deklaracji arkusza stylów w sekcji HEAD
 - wsparcie dla pod³±czonych arkuszy stylów i skryptów
 - cia³o dokumentu mo¿e byæ ci±giem znaków, obiektem z metodami toHtml
