@@ -8,7 +8,7 @@ Summary:	%{_pearname} - class for HTML page generation
 Summary(pl):	%{_pearname} - klasa do generowania stron HTML
 Name:		php-pear-%{_pearname}
 Version:	2.0.0
-Release:	0.b4
+Release:	0.b5
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{_ver}.tgz
