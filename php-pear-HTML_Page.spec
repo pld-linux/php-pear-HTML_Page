@@ -35,7 +35,7 @@ Plus preliminary support for XHTML 2.0
 - body can be a string, object with toHtml or toString methods or an
   array (can be combined)
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Klasa PEAR::HTML_Page udostêpnia prosty interfejs do generowania
