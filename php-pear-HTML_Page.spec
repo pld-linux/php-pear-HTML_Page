@@ -9,7 +9,7 @@ Summary:	%{_pearname} - base class for XHTML page generation
 Summary(pl):	%{_pearname} - bazowa klasa do generowania stron XHTML
 Name:		php-pear-%{_pearname}
 Version:	2.0.0
-Release:	0.RC2
+Release:	0.RC2.1
 License:	PHP 3.0
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{_ver}.tgz
