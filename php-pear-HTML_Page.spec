@@ -3,21 +3,22 @@
 %define		_subclass	Page
 %define		_status		beta
 %define		_pearname	%{_class}_%{_subclass}
-%define		_ver		%{version}RC2
 
 Summary:	%{_pearname} - base class for XHTML page generation
 Summary(pl):	%{_pearname} - bazowa klasa do generowania stron XHTML
 Name:		php-pear-%{_pearname}
 Version:	2.0.0
-%define		_rel 1.1
-Release:	0.RC2.%{_rel}
+%define		_rel 1.3
+%define		_rc RC2
+Release:	0.%{_rc}.%{_rel}
 License:	PHP 3.0
 Group:		Development/Languages/PHP
-Source0:	http://pear.php.net/get/%{_pearname}-%{_ver}.tgz
+Source0:	http://pear.php.net/get/%{_pearname}-%{version}%{_rc}.tgz
 # Source0-md5:	758e8b443836bdf353d3a891c01e9b27
 URL:		http://pear.php.net/package/HTML_Page/
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear
+Requires:	php-pear-HTML_Common >= 1.2
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
