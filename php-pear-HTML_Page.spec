@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - base class for XHTML page generation
-Summary(pl):	%{_pearname} - bazowa klasa do generowania stron XHTML
+Summary(pl.UTF-8):   %{_pearname} - bazowa klasa do generowania stron XHTML
 Name:		php-pear-%{_pearname}
 Version:	2.0.0
 %define		_rc RC2
@@ -41,20 +41,20 @@ Plus preliminary support for XHTML 2.0
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Klasa PEAR::HTML_Page udostêpnia prosty interfejs do generowania
+%description -l pl.UTF-8
+Klasa PEAR::HTML_Page udostÄ™pnia prosty interfejs do generowania
 zgodnych z XHTML stron.
 - wspiera praktycznie wszystkie rodzaje doctype, od HTML 2.0 przez XHTML
   1.1 i XHTML Basic 1.0
-Dodatkowo wstêpnie wsparcie dla XHTML 2.0
+Dodatkowo wstÄ™pnie wsparcie dla XHTML 2.0
 - wsparcie dla namespace
-- globalna deklaracja jêzyka dla dokumentu
-- rodzaje koñców linii
-- pe³ne wsparcie dla znaczników META
-- wsparcie dla deklaracji arkusza stylów w sekcji HEAD
-- wsparcie dla pod³±czonych arkuszy stylów i skryptów
-- cia³o dokumentu mo¿e byæ ci±giem znaków, obiektem z metodami toHtml
-  b±d¼ toString lub tablic± (mo¿e byæ mieszane)
+- globalna deklaracja jÄ™zyka dla dokumentu
+- rodzaje koÅ„cÃ³w linii
+- peÅ‚ne wsparcie dla znacznikÃ³w META
+- wsparcie dla deklaracji arkusza stylÃ³w w sekcji HEAD
+- wsparcie dla podÅ‚Ä…czonych arkuszy stylÃ³w i skryptÃ³w
+- ciaÅ‚o dokumentu moÅ¼e byÄ‡ ciÄ…giem znakÃ³w, obiektem z metodami toHtml
+  bÄ…dÅº toString lub tablicÄ… (moÅ¼e byÄ‡ mieszane)
 
 Ta klasa ma w PEAR status: %{_status}.
 
