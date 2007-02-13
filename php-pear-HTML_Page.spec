@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - base class for XHTML page generation
-Summary(pl.UTF-8):   %{_pearname} - bazowa klasa do generowania stron XHTML
+Summary(pl.UTF-8):	%{_pearname} - bazowa klasa do generowania stron XHTML
 Name:		php-pear-%{_pearname}
 Version:	2.0.0
 %define		_rc RC2
